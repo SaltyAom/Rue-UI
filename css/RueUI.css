@@ -105,30 +105,43 @@ p,span  {font-size:16px}
     transition: box-shadow .25s, border-color .25s, color .25s;}
 .tag:hover { box-shadow:0 0 0 0.15em var(--primal-shadow); }
 
-.tag-primary {color:var(--primary);border-color: #007bff;}
+.tag-primal.tag-fill { color:var(--dark);background-color:var(--primal); }
+
+.tag-primary {color:var(--primary);border-color:var(--primary);}
 .tag-primary:hover {
     box-shadow:0 0 0 0.15em var(--primary-shadow);
     color:var(--primary); } 
-
-.tag.tag-alert {
-    border-color:var(--alert) !important;
-    color:var(--alert) !important; }
-.tag-alert:hover {box-shadow:0 0 0 0.15em var(--alert-shadow);}
-
-.tag.tag-danger {
-    border-color:var(--danger) !important;
-    color:var(--danger) !important; }
-.tag-danger:hover {box-shadow:0 0 0 0.15em var(--danger-shadow);}
+.tag-primary.tag-fill { color:var(--pure);background-color:var(--primary);}
 
 .tag-success { 
-    border-color:var(--success) !important;
-    color:var(--success) !important; }
+    border-color:var(--success);
+    color:var(--success); }
 .tag-success:hover {box-shadow:0 0 0 0.15em var(--success-shadow);}
+.tag-success.tag-fill { color:var(--pure);background-color:var(--success);}
+
+.tag.tag-alert {
+    border-color:var(--alert);
+    color:var(--alert); }
+.tag-alert:hover {box-shadow:0 0 0 0.15em var(--alert-shadow);}
+.tag-alert.tag-fill { color:var(--pure);background-color:var(--alert);}
+
+.tag.tag-danger {
+    border-color:var(--danger);
+    color:var(--danger); }
+.tag-danger:hover {box-shadow:0 0 0 0.15em var(--danger-shadow);}
+.tag-danger.tag-fill { color:var(--pure);background-color:var(--danger);}
 
 .tag-dark {
-    border-color:var(--dark) !important;
-    color:var(--dark) !important; }
+    border-color:var(--dark);
+    color:var(--dark); }
 .tag-dark:hover {box-shadow:0 0 0 0.15em var(--dark-shadow);}
+.tag-dark.tag-fill {color:var(--pure);background-color:var(--dark);}
+
+.tag-pure {
+    border-color:var(--pure);
+    color:var(--primal-secondary); }
+.tag-pure:hover {box-shadow:0 0 0 0.15em var(--pure-shadow);}
+.tag-pure.tag-fill {color:var(--primal-secondary);background-color:var(--pure);}
 
 /* Banner */
 div.banner {
@@ -263,10 +276,11 @@ div.banner {
 .image.image-round { border-radius:1000px; }
 
 /* Content */
-.left {text-align:left;}
-.center { text-align: center; }
-.right {text-align:right;}
+.content-left {text-align:left;}
+.content-center { text-align: center; }
+.content-right {text-align:right;}
 
+.content-small, .content-medium, .content-large {font-weight: normal;}
 .content-small {font-size:16px;}
 .content-medium {font-size:19px;}
 .content-large {font-size:21px;}
