@@ -188,7 +188,7 @@ div.banner {
     width:100%;
     padding:15px 25px;
     margin:15px 0;
-    background-color:#fff;
+    background-color:var(--pure);
     border:1px solid var(--primal);
     border-radius:5px; }
     
@@ -246,7 +246,6 @@ div.banner {
     border-radius:30px;
     padding:8px 35px;
     transition:box-shadow 0.325s;
-    cursor:pointer;
     text-decoration:none; }
 
 .rue-btn:hover { box-shadow:0 0 0 0.2rem var(--primal-shadow); }
@@ -319,3 +318,13 @@ div.banner {
 .primary-secondary {color:var(--primary-secondary);}
 .primary-content {color:var(--primary-content);}
 .primary-fade {color:var(--primary-fade);}
+
+.content-divider {
+    border-bottom:1px solid var(--primal);
+    padding-bottom:5px; }
+.content-divider.divider-primary {border-color:var(--primary);}
+.content-divider.divider-success {border-color:var(--success);}
+.content-divider.divider-alert {border-color:var(--alert);}
+.content-divider.divider-danger {border-color:var(--danger);}
+.content-divider.divider-dark {border-color:var(--dark);}
+.content-divider.divider-pure {border-color:var(--pure);}
