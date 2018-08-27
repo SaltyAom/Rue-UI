@@ -170,30 +170,37 @@ div.banner {
 .media.media-primary { border-color: var(--primary); }
 .media.media-primary.media-hover:hover {box-shadow:0 0 0 4px var(--primary-shadow);}
 .media.media-primary.media-fill {background-color:var(--primary);}
+.media.media-primary.media-glow {box-shadow:0 0 0 4px var(--primary-shadow);}
 
 .media.media-primal {border-color: var(--primal);}
 .media.media-primal.media-hover:hover {box-shadow:0 0 0 4px var(--primal-shadow);}
 .media.media-primal.media-fill {background-color:var(--primal);}
+.media.media-primal.media-glow {box-shadow:0 0 0 4px var(--primal-shadow);}
 
 .media.media-success {border-color: var(--success);}
 .media.media-success.media-hover:hover {box-shadow:0 0 0 4px var(--success-shadow);}
 .media.media-success.media-fill {background-color:var(--success);}
+.media.media-success.media-glow {box-shadow:0 0 0 4px var(--success-shadow);}
 
 .media-media-alert {border-color: var(--alert);}
 .media.media-alert.media-hover:hover {box-shadow:0 0 0 4px var(--alert-shadow);}
 .media.media-alert.media-fill {background-color:var(--alert);}
+.media.media-alert.media-glow {box-shadow:0 0 0 4px var(--alert-shadow);}
 
 .media.media-danger {border-color: var(--danger);}
 .media.media-danger.media-hover:hover {box-shadow:0 0 0 4px var(--danger-shadow);}
 .media.media-danger.media-fill {background-color:var(--danger);}
+.media.media-danger.media-glow {box-shadow:0 0 0 4px var(--danger-shadow);}
 
 .media.media-pure {border-color: var(--pure);}
 .media.media-pure.media-hover:hover {box-shadow:0 0 0 4px var(--pure-shadow);}
 .media.media-pure.media-fill {background-color:var(--pure);}
+.media.media-pure.media-glow {box-shadow:0 0 0 4px var(--pure-shadow);}
 
 .media.media-dark {border-color: var(--dark);}
 .media.media-dark.media-hover:hover {box-shadow:0 0 0 4px var(--dark-shadow);}
 .media.media-dark.media-fill {background-color:var(--dark);}
+.media.media-dark.media-glow {box-shadow:0 0 0 4px var(--dark-shadow);}
 
 .media > h1,h2,h3 {margin:0;}
 .media > .tag-container {margin-bottom:5px;}
@@ -204,7 +211,7 @@ div.banner {
     margin:10px 0;
     display:inline-block;
     background-color:var(--pure-secondary);
-    font-size:20px;
+    font-size:18px;
     padding:7px 18px;
     text-decoration:none;
     border-radius:2px;
