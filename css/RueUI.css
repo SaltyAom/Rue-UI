@@ -64,7 +64,7 @@
 body {margin:0;background:#fff;width:100%;}
 h1,h2,h3,h4,h5,h6,p,span,div {cursor:default;color:#222;}
 h1,h2,h3,h4,h5,h6,p,a {margin:12px 0;}
-h1,h2,h3,h4,h5,h6 {font-weight: bolder;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;}
 a {color:#007bff;text-decoration:underline;}
 
 h1 {font-size:28px;}
@@ -179,16 +179,6 @@ sup,sub {font-size:0.5em;}
 .tag.badge {border-radius:9001px;}
 .tag.line-tag::after {display:block;content:"";}
 
-/* Banner */
-div.banner {
-    display:block;
-    width:100%;
-    margin-top:30px;
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat:no-repeat; }
-
 /* Grid */
 .grid-container {
     width:100%;
@@ -203,8 +193,7 @@ div.banner {
 .grid-1-12,.grid-2-12,.grid-3-12,.grid-4-12,.grid-5-12,.grid-6-12,
 .grid-7-12,.grid-8-12,.grid-9-12,.grid-10-12,.grid-11-12,.grid-12-12 {
     float:left;
-    padding:7px 12px;
-}
+    padding:7px 12px; }
 
 .grid-1-12 {width:8.33%;}
 .grid-2-12 {width:16.66%;}
@@ -345,6 +334,63 @@ div.banner {
     border-bottom-right-radius: 5px; }
 
 .rue-btn.btn-fluid {display:block;width:100%;text-align: center;}
+
+.btn-medium {
+    display:inline-block;
+    padding:9px 26px;
+    font-size:21px;
+    font-weight: bolder; }
+
+.btn-large {
+    display:inline-block;
+    padding:12px 32px;
+    font-size:24px;
+    font-weight: bolder; }
+
+/* Card */
+.card-container {
+    display:flex;
+    justify-content: space-between;
+    width:100%; }
+.card-container::after {
+    display:block;
+    content:"";
+    clear:both; }
+
+.card {
+    display:table-cell;
+    width:30%;
+    border:1px solid var(--pure-secondary); }
+.card::before, .card::after {
+    display:table-cell;
+    width:1.66%;
+    background-color:transparent; }
+.card-header {
+    display:block;
+    padding:15px 25px;
+    font-size:26px; }
+.card-image {
+    object-fit:scale-down;
+    display:block;
+    width:100%; }
+.card-content {
+    display:block;
+    padding:15px 25px;
+    font-size:19px; }
+.card-footer {
+    display:block;
+    padding:15px 20px;
+    padding-top:10px;
+    text-indent:15px;
+    color:var(--primal-secondary);
+    font-size:16px; }
+.footer-prefix::before {content:"\2014 \00A0";}
+
+.card-container.card-1 > .card {width:96.33%; }
+.card-container.card-2 > .card {width:46.33%; }
+.card-container.card-3 > .card {width:30%; }
+.card-container.card-4 > .card {width:21.66%; }
+.card-container.card-5 > .card {width:14.33%; }
 
 /* Image */
 .image {

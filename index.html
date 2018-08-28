@@ -2,10 +2,39 @@
 <html lang="en">
     <head>
         <title>Rue UI</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0">
+        <!-- Init -->
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+        <meta http-equiv="content-type" content="text/html, charset=utf8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <!-- Search Engine -->
+        <link rel="icon" href="img/mystia.png">
+        <link rel="shortcut icon" href="img/mystia.png">
+        <meta name="title" content="Rue UI">
+        <meta name="description" content="An CSS framework for elegant design and coding.">
+        <meta name="author" content="Mystia Project">
+
+        <!-- Open Graph -->
+        <link rel="canonical" href="https://www.mystia-project.com/Rue%20UI/">
+        <meta name="og:title" content="Rue UI">
+        <meta name="og:description" content="An CSS framework for elegant design and coding.">
+        <meta property="og:image" content="https://www.mystia-project.com/Rue%20UI/img/mystia.jpg">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Rue UI">
+        <meta name="twitter:description" content="An CSS framework for elegant design and coding.">
+        <meta name="twitter:site" content="@aomkirby1231">
+        <meta name="twitter:image" content="https://www.mystia-project.com/Rue%20UI/img/mystia.jpg" />
+        <meta name="twitter:creator" content="@aomkirby1231" />
+
         <link rel="stylesheet" type="text/css" href="css/RueUI.css">
         <link rel="preload" as="image" href="img/FluffyMarisa.jpg">
-        <style>
+        <!-- <style>
             #background, #overlay {
                 width:100%;
                 height:100vh;
@@ -15,27 +44,62 @@
                 background-size: cover;
                 background-position: right; }
             #overlay {background-color:rgba(255,255,255,0.625);z-index:-1;background-image:unset;}
-        </style>
+        </style> -->
     </head>
     <body>
         <!-- <div id="background"></div>
         <div id="overlay"></div> -->
         <div class="container">
             <div class="media media-transparent">
-                <h1 class="title-small content-light content-divider divider-primary divider-heavy">Rue UI <sub class="content-bold">v 0.1</sub></h1>
-                <h1 class="content-large content-indent">
+                <h1 class="title-small content-divider divider-primary primary-primary">Rue UI <sub class="content-bold">v 0.1</sub></h1>
+                <h1 class="content-large content-indent primary-secondary">
                     <code>Rue UI</code>, an CSS framework for elegant design and coding.
                 </h1>
-                <h1 class="content-large content-indent">
+                <h1 class="content-large content-indent primary-content">
                     Hello World, aomkirby123
                     is here, prototyping an <code>Rue UI</code>! I need to work across devices, So I set up a git
                     project on <a class="link" href="https://www.github.com/aomkirby123/Rue-UI">Github</a>.
                 </h1>    
                 <h1 class="content-small pure-fade content-indent content-right">&reg aomkirby123 ~ 2018</h1>
             </div>
+            <div class="grid-container">
+                <div class="grid-4-12 grid-small-12-12 grid-medium-12-12 grid-large-12-12">
+                    <div class="media media-primary media-hover content-center media-heavy">
+                        <h1 class="title-small content-margin-large primary-primary content-divider divider-primary">Easy to code</h1>
+                        <div class="content-container-large">
+                            <h1 class="content-large content-margin-large primary-content">
+                                <code>Rue UI</code> use an easy-to-read by human class name.
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-4-12 grid-small-12-12 grid-medium-12-12 grid-large-12-12">
+                    <div class="media media-primary media-hover content-center media-heavy">
+                        <h1 class="title-small content-margin-large primary-primary content-divider divider-primary">Full responsive</h1>
+                        <div class="content-container-large">
+                            <h1 class="content-large content-margin-large primary-content">
+                                No need to write extra CSS, <code>Rue UI</code> will adjust an page for you.
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-4-12 grid-small-12-12 grid-medium-12-12 grid-large-12-12">
+                    <div class="media media-primary media-hover content-center media-heavy">
+                        <h1 class="title-small content-margin-large primary-primary content-divider divider-primary">Be colorful</h1>
+                        <div class="content-container-large">
+                            <h1 class="content-large content-margin-large primary-content">
+                                <code>Rue UI</code> offers multiple color palette, content-styling, more!
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container content-center margin-content-large">
+                <a class="rue-btn btn-primary btn-large btn-blank" href="https://www.github.com/aomkirby123/Rue%20UI/" target="_blank">View on GitHub</a>
+            </div>
             <div class="media media-transparent">
-                <h1 class="title-small content-light content-divider">Typograhy</h1>
-                <h5 class="content-light content-margin-none p">
+                <h1 class="title-small content-divider">Typograhy</h1>
+                <h5 class="content-margin-none primary-secondary">
                     <code>Rue UI</code> use default font as "Arial, Helvetica, sans-serif" for the best reading experience.
                 </h5>        
                 <div class="media media-alert media-fill">
@@ -43,14 +107,14 @@
                         Rue UI use box-sizing: border-box for easier to be design with responsive.
                     </h5>
                 </div>    
-                <h4 class="content-light">Default font size of <code>Rue UI</code>.</h4>
+                <h4>Default font size of <code>Rue UI</code>.</h4>
                 <div class="media">
-                    <h1>h1 (28px) - bold</h1>
-                    <h2>h2 (26px) - bold</h2>
-                    <h3>h3 (24px) - bold</h3>
-                    <h4>h4 (22px) - bold</h4>
-                    <h5>h5 (20px) - bold</h5>
-                    <h6>h6 (18px) - bold</h6>
+                    <h1>h1 (28px) - normal</h1>
+                    <h2>h2 (26px) - normal</h2>
+                    <h3>h3 (24px) - normal</h3>
+                    <h4>h4 (22px) - normal</h4>
+                    <h5>h5 (20px) - normal</h5>
+                    <h6>h6 (18px) - normal</h6>
                     <p>p (16px) - normal</p>
                     <a>a (16px) - normal</a>
                     <br><br>
@@ -64,14 +128,14 @@
                 <div class="media">
                     <h4 class="content-margin-none">Break line</h4>
                     <br>
-                    <h4 class="content-margin-none content-light">(8px)</h4>
+                    <h4 class="content-margin-none">(8px)</h4>
                 </div>
             </div>    
             <div class="media media-transparent">            
-                <h1 class="title-small content-light content-divider">Content</h1>
+                <h1 class="title-small content-divider">Content</h1>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Content color</h1>
-                    <h5 class="content-light">Rue UI offers 7 color palatte, 28 colors.
+                    <h1 class="header-medium content-divider">Content color</h1>
+                    <h5>Rue UI offers 7 color palatte, 28 colors.
                         <span class="code">Primal</span>
                         <span class="code">Primary</span>
                         <span class="code">Success</span>
@@ -82,51 +146,51 @@
                     </h5>
                     
                     <div class="media media-primal">
-                        <h4 class="content-light content-block primal-primary">Primal Primary</h4>
-                        <h4 class="content-light content-block primal-secondary">Primal Secondary</h4>
-                        <h4 class="content-light content-block primal-content">Primal Content</h4>
-                        <h4 class="content-light content-block primal-fade">Primal Fade</h4>
+                        <h4 class="content-block primal-primary">Primal Primary</h4>
+                        <h4 class="content-block primal-secondary">Primal Secondary</h4>
+                        <h4 class="content-block primal-content">Primal Content</h4>
+                        <h4 class="content-block primal-fade">Primal Fade</h4>
                     </div>        
                     <div class="media media-primary">
-                        <h4 class="content-light content-block primary-primary">Primary Primary</h4>
-                        <h4 class="content-light content-block primary-secondary">Primary Secondary</h4>
-                        <h4 class="content-light content-block primary-content">Primary Content</h4>
-                        <h4 class="content-light content-block primary-fade">Primary Fade</h4>
+                        <h4 class="content-block primary-primary">Primary Primary</h4>
+                        <h4 class="content-block primary-secondary">Primary Secondary</h4>
+                        <h4 class="content-block primary-content">Primary Content</h4>
+                        <h4 class="content-block primary-fade">Primary Fade</h4>
                     </div>        
                     <div class="media media-success">
-                        <h4 class="content-light content-block success-primary">Success Primary</h4>
-                        <h4 class="content-light content-block success-secondary">Success Secondary</h4>
-                        <h4 class="content-light content-block success-content">Success Content</h4>
-                        <h4 class="content-light content-block success-fade">Success Fade</h4>
+                        <h4 class="content-block success-primary">Success Primary</h4>
+                        <h4 class="content-block success-secondary">Success Secondary</h4>
+                        <h4 class="content-block success-content">Success Content</h4>
+                        <h4 class="content-block success-fade">Success Fade</h4>
                     </div>                                            
                     <div class="media media-alert">
-                        <h4 class="content-light content-block alert-primary">Alert Primary</h4>
-                        <h4 class="content-light content-block alert-secondary">Alert Secondary</h4>
-                        <h4 class="content-light content-block alert-content">Alert Content</h4>
-                        <h4 class="content-light content-block alert-fade">Alert Fade</h4>
+                        <h4 class="content-block alert-primary">Alert Primary</h4>
+                        <h4 class="content-block alert-secondary">Alert Secondary</h4>
+                        <h4 class="content-block alert-content">Alert Content</h4>
+                        <h4 class="content-block alert-fade">Alert Fade</h4>
                     </div>    
                     <div class="media media-danger">
-                        <h4 class="content-light content-block danger-primary">Danger Primary</h4>
-                        <h4 class="content-light content-block danger-secondary">Danger Secondary</h4>
-                        <h4 class="content-light content-block danger-content">Danger Content</h4>
-                        <h4 class="content-light content-block danger-fade">Danger Fade</h4>
+                        <h4 class="content-block danger-primary">Danger Primary</h4>
+                        <h4 class="content-block danger-secondary">Danger Secondary</h4>
+                        <h4 class="content-block danger-content">Danger Content</h4>
+                        <h4 class="content-block danger-fade">Danger Fade</h4>
                     </div>
                     <div class="media media-dark">
-                        <h4 class="content-light content-block dark-primary">Dark Primary</h4>
-                        <h4 class="content-light content-block dark-secondary">Dark Secondary</h4>
-                        <h4 class="content-light content-block dark-content">Dark Content</h4>
-                        <h4 class="content-light content-block dark-fade">Dark Fade</h4>
+                        <h4 class="content-block dark-primary">Dark Primary</h4>
+                        <h4 class="content-block dark-secondary">Dark Secondary</h4>
+                        <h4 class="content-block dark-content">Dark Content</h4>
+                        <h4 class="content-block dark-fade">Dark Fade</h4>
                     </div>   
                     <div class="media media-dark media-fill">
-                        <h4 class="content-light content-block pure-primary">Pure Primary</h4>
-                        <h4 class="content-light content-block pure-secondary">Pure Secondary</h4>
-                        <h4 class="content-light content-block pure-content">Pure Content</h4>
-                        <h4 class="content-light content-block pure-fade">Pure Fade</h4>
+                        <h4 class="content-block pure-primary">Pure Primary</h4>
+                        <h4 class="content-block pure-secondary">Pure Secondary</h4>
+                        <h4 class="content-block pure-content">Pure Content</h4>
+                        <h4 class="content-block pure-fade">Pure Fade</h4>
                     </div>            
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Content size</h1>
-                    <h5 class="content-light">There is 9 custom content size availble for <span class="code">Rue UI</span>, <code>content-*</code><code>header-*</code><code>title-*</code></h5>
+                    <h1 class="header-medium content-divider">Content size</h1>
+                    <h5>There is 9 custom content size availble for <span class="code">Rue UI</span>, <code>content-*</code><code>header-*</code><code>title-*</code></h5>
                     <h1 class="content-small">content small</h1>
                     <h1 class="content-medium">content medium</h1>
                     <h1 class="content-large">content large</h1>
@@ -138,11 +202,11 @@
                     <h1 class="title-large">title large</h1>
                 </div>    
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Content style</h1>
-                    <h4 class="content-light content-block">5 custom content styling</h4>
-                    <h5 class="content-light content-block">Style a content with <code>*</code></h5>
+                    <h1 class="header-medium content-divider">Content style</h1>
+                    <h4 class="content-block">5 custom content styling</h4>
+                    <h5 class="content-block">Style a content with <code>*</code></h5>
                     <div class="media">
-                        <h5 class="content-light">
+                        <h5>
                             Default 
                             <span class="mark">mark</span> 
                             <span class="code">code</span> 
@@ -150,12 +214,12 @@
                             <span class="link">link</span>
                         </h5>
                     </div>
-                    <h6 class="content-light">Class <code>.code</code> can be used as <code>&ltcode&gt</code>.</h6>
+                    <h6>Class <code>.code</code> can be used as <code>&ltcode&gt</code>.</h6>
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Content Fill</h1>                    
-                    <h4 class="content-light">Add <code>fill</code> class to fill the styling.</h4>
-                    <h5 class="content-light">
+                    <h1 class="header-medium content-divider">Content Fill</h1>                    
+                    <h4>Add <code>fill</code> class to fill the styling.</h4>
+                    <h5>
                         <span class="content fill">Fill content</span>
                         <span class="mark fill">Fill mark</span>
                         <span class="code fill">Fill code</span>
@@ -164,15 +228,15 @@
                     </h5>
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Content weight</h1>
-                    <h4 class="content-light content-block">Style the text weight <code>content-*</code>.</h4>
+                    <h1 class="header-medium content-divider">Content weight</h1>
+                    <h4 class="content-block">Style the text weight <code>content-*</code>.</h4>
                     <h1 class="content-large content-light">content-light</h1>
                     <h1 class="content-large content-medium">content-normal</h1>
                     <h1 class="content-large content-bold">content-bold</h1>
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Content align</h1>
-                    <h4 class="content-light content-block">Style the text align <code>content-*</code>.</h4>
+                    <h1 class="header-medium content-divider">Content align</h1>
+                    <h4 class="content-block">Style the text align <code>content-*</code>.</h4>
                     <div class="media">
                         <h1 class="content-large content-left">content-left</h1>
                         <h1 class="content-large content-center">content-center</h1>
@@ -180,8 +244,8 @@
                     </div>
                 </div>    
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Content divider</h1>
-                    <h4 class="content-light content-block">Adjust header, style as only element in line <code>content-divider</code>, and change color <code>divider-*</code></h4>
+                    <h1 class="header-medium content-divider">Content divider</h1>
+                    <h4 class="content-block">Adjust header, style as only element in line <code>content-divider</code>, and change color <code>divider-*</code></h4>
                     <h1 class="content-large content-divider divider-primary">divider-primary</h1>
                     <h1 class="content-large content-divider divider-success">divider-success</h1>
                     <h1 class="content-large content-divider divider-alert">divider-alert</h1>
@@ -189,8 +253,8 @@
                     <h1 class="content-large content-divider divider-dark">divider-dark</h1>
                 </div>        
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider divider-heavy">Content divider heavy</h1>
-                    <h4 class="content-light content-block">More impact, more weight, change weight of <code>content-divider</code>, by adding <code>divider-heavy</code></h4>
+                    <h1 class="header-medium content-divider divider-heavy">Content divider heavy</h1>
+                    <h4 class="content-block">More impact, more weight, change weight of <code>content-divider</code>, by adding <code>divider-heavy</code></h4>
                     <h1 class="content-large content-divider divider-heavy divider-primary">divider-primary</h1>
                     <h1 class="content-large content-divider divider-heavy divider-success">divider-success</h1>
                     <h1 class="content-large content-divider divider-heavy divider-alert">divider-alert</h1>
@@ -199,11 +263,11 @@
                 </div>            
             </div>
             <div class="media media-transparent">
-                <h1 class="title-small content-light">Tag</h1>
+                <h1 class="title-small">Tag</h1>
                 <div class="media">
                     <div class="tag-container">
-                        <h4 class="content-light content-block">Search info? Add tag! <code>tag</code>, and adding tag color <code>tag-*</code>.</h4>
-                        <h1 class="header-medium content-light content-divider">Normal tag</h1>
+                        <h4 class="content-block">Search info? Add tag! <code>tag</code>, and adding tag color <code>tag-*</code>.</h4>
+                        <h1 class="header-medium content-divider">Normal tag</h1>
                         <div class="tag content-small">Primal</div>
                         <div class="tag content-small tag-primary">Primary</div>
                         <div class="tag content-small tag-success">Success</div>
@@ -214,8 +278,8 @@
                 </div>
                 <div class="media">
                     <div class="tag-container">
-                        <h1 class="header-medium content-light content-divider content-divider">Fill tag</h1>
-                        <h4 class="content-light content-block">Dont' like blank tag? Then fill it <code>tag-fill</code>.</h4>
+                        <h1 class="header-medium content-divider content-divider">Fill tag</h1>
+                        <h4 class="content-block">Dont' like blank tag? Then fill it <code>tag-fill</code>.</h4>
                         <div class="tag content-small tag-fill tag-primal">Primal</div>
                         <div class="tag content-small tag-fill tag-primary">Primary</div>
                         <div class="tag content-small tag-fill tag-success">Success</div>
@@ -226,8 +290,8 @@
                 </div>
                 <div class="media">
                     <div class="tag-container">
-                        <h1 class="header-medium content-light content-divider">Badge tag</h1>
-                        <h4 class="content-light content-block">Need circle tag? Just add <code>badge</code>.</h4>
+                        <h1 class="header-medium content-divider">Badge tag</h1>
+                        <h4 class="content-block">Need circle tag? Just add <code>badge</code>.</h4>
                         <div class="tag content-small badge tag-primal">Primal</div>
                         <div class="tag content-small badge tag-primary">Primary</div>
                         <div class="tag content-small badge tag-success">Success</div>
@@ -238,10 +302,10 @@
                 </div>    
             </div>
             <div class="media media-transparent">            
-                <h1 class="title-small content-light content-divider">Rue Button</h1>
+                <h1 class="title-small content-divider">Rue Button</h1>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Button</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Button</h1>
+                    <h4 class="content-indent content-block">
                         More interesting button, more navigation across page.
                         <code>Rue UI</code> offers 7 type of button to be used.
                         <br>Adding a button by adding class to <code>button</code> or <code>a</code>.
@@ -258,8 +322,8 @@
                     </div>
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Blank Button</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Blank Button</h1>
+                    <h4 class="content-indent content-block">
                         Some times button have to be blank for better <code>UX</code>, like background-impact design.
                         <br>For using blank button add <code>btn-blank</code>.
                     </h4>
@@ -274,8 +338,8 @@
                     </div>
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Round Button</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Round Button</h1>
+                    <h4 class="content-indent content-block">
                         Round button for rounded page design! Insert <code>btn-round</code>.
                     </h4>
                     <div class="container-stack">
@@ -289,8 +353,8 @@
                     </div>
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Fluid Button</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Fluid Button</h1>
+                    <h4 class="content-indent content-block">
                         Need button to be on a whole line? Try Fluid Button! <code>btn-fluid</code>.
                     </h4>
                     <div class="container-stack">
@@ -304,8 +368,8 @@
                     </div>
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Button container</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Button container</h1>
+                    <h4 class="content-indent content-block">
                         Button need to be stack? No problem! Add <code>parent</code> to <code>btn</code> with parent class: <code>rue-btn-container</code>!
                     </h4>
                     <div class="container-stack">
@@ -324,10 +388,10 @@
                 </div>
             </div>
             <div class="media media-transparent">
-                <h1 class="title-small content-light">Media</h1>
+                <h1 class="title-small">Media</h1>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Media</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Media</h1>
+                    <h4 class="content-indent content-block">
                         A container need to be easier to recongnize, easily to read? Media is the solution! Use <code>media</code> wrapper.
                     </h4>                        
                     <div class="media media-primal">Media Primal</div>
@@ -338,8 +402,8 @@
                     <div class="media media-dark">Media Dark</div>
                 </div>    
                 <div class="media media-primal media-hover">
-                    <h1 class="header-medium content-light content-divider">Media Hover</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Media Hover</h1>
+                    <h4 class="content-indent content-block">
                         Media can be a selector too! Hover effect added, <code>media-hover</code>.
                     </h4>                    
                     <div class="media media-primal media-hover">Media Primal</div>
@@ -350,8 +414,8 @@
                     <div class="media media-dark media-hover">Media Dark</div>
                 </div>
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Media Glow</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Media Glow</h1>
+                    <h4 class="content-indent content-block">
                         Want a hover effect without being hover? Then just glow it, <code>media-glow</code>.
                     </h4>                            
                     <div class="media media-primal media-glow">Media Primal</div>
@@ -362,8 +426,8 @@
                     <div class="media media-dark media-glow">Media Dark</div>
                 </div>
                 <div class="media media-primal media-hover">
-                    <h1 class="header-medium content-light content-divider">Media Heavy</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Media Heavy</h1>
+                    <h4 class="content-indent content-block">
                         Media have to be easier to recognize? Then impact it! <code>media-impact</code>.
                     </h4>                        
                     <div class="media media-impact media-primal">Media Primal</div>
@@ -374,8 +438,8 @@
                     <div class="media media-impact media-dark">Media Dark</div>
                 </div>    
                 <div class="media">
-                    <h1 class="header-medium content-light content-divider">Media Fill</h1>
-                    <h4 class="content-indent content-light content-block">
+                    <h1 class="header-medium content-divider">Media Fill</h1>
+                    <h4 class="content-indent content-block">
                         Sometime it's better to use color instead of white, right? So just fill it: <code>media-fill</code>.
                     </h4>
                     <div class="media media-fill media-primal">Media Primal</div>
@@ -387,8 +451,8 @@
                 </div>
             </div>
             <div class="media media-transparent">
-                <h1 class="title-small content-light content-divider">Container</h1>
-                <h4 class="content-indent content-light content-block">
+                <h1 class="title-small content-divider">Container</h1>
+                <h4 class="content-indent content-block">
                     Layout is important, <code>Rue UI</code> offers 7 type of container with well-mesurement for good UX.
                 </h4>
                 <div class="container-stack media media-primal media-fill">
@@ -428,10 +492,10 @@
                 </div>    
             </div>
             <div class="media media-transparent">
-                <h1 class="title-small content-light content-divider">Grid <sup>(Beta)</sup></h1>
-                <p class="content-large content-light"><span class="code">Rue UI</span> has grid-system which contains 12 level grid.</p>
-                <div class="media media-alert media-fill"><p class="content-large content-light content-margin-none pure-primary">Wrap a grid in an <code>grid-container</code> parent before using.</p></div>
-                <div class="media media-primary media-fill"><p class="content-large content-light content-margin-none pure-primary"><code>Grid system</code> will auto define itself if <code>responsive</code> data isn't set (Only if width is less than 576px).</p></div>
+                <h1 class="title-small content-divider">Grid <sup>(Beta)</sup></h1>
+                <p class="content-large"><span class="code">Rue UI</span> has grid-system which contains 12 level grid.</p>
+                <div class="media media-alert media-fill"><p class="content-large content-margin-none pure-primary">Wrap a grid in an <code>grid-container</code> parent before using.</p></div>
+                <div class="media media-primary media-fill"><p class="content-large content-margin-none pure-primary"><code>Grid system</code> will auto define itself if <code>responsive</code> data isn't set (Only if width is less than 576px).</p></div>
                 Syntax for usage is<span class="code">grid-*-12</span> (Which * represent number range between: 1-12)</p>
                 <div class="media">
                     <div class="grid-container">
@@ -588,36 +652,135 @@
                 <div class="grid-container">
                     <div class="grid-3-12 grid-small-12-12 grid-medium-6-12">
                         <div class="media media-danger media-hover media-impact">
-                            <h2 class="content-light content-divider divider-danger divider-heavy">Less than 576px</h2>
-                            <h5 class="content-light">
+                            <h2 class="content-divider divider-danger divider-heavy">Less than 576px</h2>
+                            <h5 class="">
                                 <code>grid-small-*-12</code> will take care of grid between this width.
                             </h5>
                         </div>
                     </div>
                     <div class="grid-3-12 grid-small-12-12 grid-medium-6-12">
                         <div class="media media-alert media-hover media-impact">
-                            <h2 class="content-light content-divider divider-alert divider-heavy">Less than 768px</h2>
-                            <h5 class="content-light">
+                            <h2 class="content-divider divider-alert divider-heavy">Less than 768px</h2>
+                            <h5>
                                 <code>grid-medium-*-12</code> will take care of grid between this width.
                             </h5>
                         </div>
                     </div>
                     <div class="grid-3-12 grid-small-12-12 grid-medium-6-12">
                         <div class="media media-primary media-hover media-impact">
-                            <h2 class="content-light content-divider divider-primary divider-heavy">Less than 960px</h2>
-                            <h5 class="content-light">
+                            <h2 content-divider divider-primary divider-heavy">Less than 960px</h2>
+                            <h5>
                                 <code>grid-large-*-12</code> will take care of grid between this width.
                             </h5>
                         </div>
                     </div>    
                     <div class="grid-3-12 grid-small-12-12 grid-medium-6-12">
                         <div class="media media-success media-hover media-impact">
-                            <h2 class="content-light content-divider divider-success divider-heavy">More than 960px</h2>
-                            <h5 class="content-light">
+                            <h2 content-divider divider-success divider-heavy">More than 960px</h2>
+                            <h5>
                                 <code>grid-*-12</code> will take care of grid between this width.
                             </h5>
                         </div>
                     </div>        
+                </div>
+            </div>
+            <div class="media media-transparent">
+                <h1 class="title-small content-divider">Card</h1>
+                <h1 class="content-large content-indent">
+                    <h5>Card is availble with <span class="block">same-height</span> inside same parent. Wrap a <code>card</code> inside a <code>card-container</code>.</h5>
+                </h1>
+                <div class="media media-transparent">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-header"><code>card-header</code></div>
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                            <div class="card-content">
+                                <code>card-image</code>
+                                <code>card-content</code>                            
+                            </div>
+                            <div class="card-footer"><code>card-footer</code></div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header"><code>card-header</code></div>
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                            <div class="card-content">
+                                <code>card-content</code>                            
+                            </div>
+                            <div class="card-footer footer-prefix"><code>footer-prefix</code></code><code>card-footer</code></div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">Card</div>
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                            <div class="card-content">
+                                That's cute!<br>
+                            </div>
+                            <div class="card-footer footer-prefix">Fluffy Marisa</div>
+                        </div>        
+                    </div>
+                </div>
+                <h5>Card is also offers card count from <span class="block">1</span> to <span class="block">5</span>, add <code>card-*</code> with <code>card-container</code>.</h5>
+                <br>
+                <h5 class="code">card-2</h5>
+                <div class="media media-transparent">
+                    <div class="card-container card-2">
+                        <div class="card">
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                            <div class="card-header"></div>
+                            <div class="card-content">
+                                That's cute!
+                            </div>
+                            <div class="card-footer footer-prefix">Fluffy Marisa</div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">Card</div>
+                            <div class="card-content">
+                                That's cute!<br>
+                            </div>
+                            <div class="card-footer footer-prefix">Fluffy Marisa</div>
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                        </div>        
+                    </div>
+                </div>
+                <h5 class="code">card-4</h5>
+                <div class="media media-transparent">
+                    <div class="card-container card-4">
+                        <div class="card">
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                            <div class="card-header">Card</div>
+                            <div class="card-content">
+                                That's cute!
+                            </div>
+                            <div class="card-footer footer-prefix">Fluffy Marisa</div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">Card</div>
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                            <div class="card-content">
+                                That's cute!
+                            </div>
+                            <div class="card-footer footer-prefix">Fluffy Marisa</div>
+                        </div>    
+
+                        <div class="card">
+                            <div class="card-header">Card</div>
+                            <div class="card-content">
+                                That's cute!
+                            </div>
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                            <div class="card-footer footer-prefix">Fluffy Marisa</div>
+                        </div>
+        
+                        <div class="card">
+                            <div class="card-header">Card</div>
+                            <div class="card-content">
+                                That's cute!<br>
+                            </div>
+                            <div class="card-footer footer-prefix">Fluffy Marisa</div>
+                            <img class="card-image" src="img/FluffyMarisa.jpg" >
+                        </div>        
+                    </div>
                 </div>
             </div>
         </div>
