@@ -59,20 +59,8 @@ h3 {font-size:24px;margin:9px 0;}
 h4 {font-size:22px;margin:6px 0;}
 h5 {font-size:20px;margin:3px 0;}
 h6 {font-size:18px}
-p,span  {font-size:16px}
-
-/* Container */
-.container, .container-small, .container-large, .container-stack
-.content-container, .content-container-small, .content-container-large {
-    display:block;
-    width:100%; }
-
-.container-large { padding:25px 5%; }
-.container { padding:25px 7.5%; }
-.container-small { padding:25px 10%; }
-.content-container-large { padding:0 15%; }
-.content-container { padding:0 20%; }
-.content-container-small { padding:0 25%; }
+p {font-size:16px}
+span {font-size:inherit;}
 
 /* Micro content */
 .mark, .code, .block {
@@ -181,6 +169,7 @@ div.banner {
 
 /* Grid */
 .grid-container {
+    width:100%;
     display:block;
     padding:15px 20px; }
 
@@ -256,7 +245,20 @@ div.banner {
 .media.media-dark.media-glow {box-shadow:0 0 0 4px var(--dark-shadow);}
 
 .media.media-heavy {border-width: 2px;}
+.media.media-transparent {border-color:transparent; background-color:transparent;}
 
+/* Container */
+.container, .container-small, .container-large, .container-stack
+.content-container, .content-container-small, .content-container-large {
+    display:block;
+    width:100%; }
+
+.container-large { padding:25px 5%; }
+.container { padding:25px 7.5%; }
+.container-small { padding:25px 10%; }
+.content-container-large { padding:0 15%; }
+.content-container { padding:0 20%; }
+.content-container-small { padding:0 25%; }
 
 /* Button */
 .rue-btn {
@@ -383,4 +385,15 @@ div.banner {
 .content-divider.divider-dark {border-color:var(--dark);}
 .content-divider.divider-pure {border-color:var(--pure);}
 
-.content-divider.divider-heavy {border-width: 2px;}
+.content-divider.divider-heavy {border-width: 2px;}/* Container */
+.container, .container-small, .container-large, .container-stack
+.content-container, .content-container-small, .content-container-large {
+    display:block;
+    width:100%; }
+
+.container-large { padding:25px 5%; }
+.container { padding:25px 7.5%; }
+.container-small { padding:25px 10%; }
+.content-container-large { padding:0 15%; }
+.content-container { padding:0 20%; }
+.content-container-small { padding:0 25%; }
