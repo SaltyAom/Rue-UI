@@ -190,8 +190,8 @@ sup,sub {font-size:0.5em;}
     content:"";
     clear:both; }
 
-.grid-container-small { padding:15px 22px; }
-.grid-container-large { padding:15px 8px; }
+.grid-small { padding:15px 36px; }
+.grid-large { padding:15px 4px; }
 
 .grid-1-12,.grid-2-12,.grid-3-12,.grid-4-12,.grid-5-12,.grid-6-12,
 .grid-7-12,.grid-8-12,.grid-9-12,.grid-10-12,.grid-11-12,.grid-12-12 {
@@ -313,6 +313,8 @@ sup,sub {font-size:0.5em;}
 .media.media-impact {border-width: 2px;}
 .media.media-transparent {border-color:transparent; background-color:transparent;}
 
+.media-edge {border-radius:0;}
+
 /* Container */
 .container, .container-small, .container-large, .container-stack
 .content-container, .content-container-small, .content-container-large {
@@ -399,7 +401,7 @@ sup,sub {font-size:0.5em;}
 
 .btn-large {
     display:inline-block;
-    padding:18px 32px;
+    padding:18px 40px;
     font-size:26px; }
 .btn-round.btn-large { padding:18px 36px; }
 .btn-round.btn-fluid.btn-large { padding-left:7px; padding-right:7px;}
@@ -461,6 +463,38 @@ sup,sub {font-size:0.5em;}
 .banner.banner-small { padding:900px 15%; }
 .banner.banner-large {padding:30px 5%;}
 .banner.banner-transparent {background-color:transparent;}
+
+/* landing-banner */
+.landing-banner {
+    display:table;
+    widows: 100%;
+    height:75vh; }
+.landing-banner.half {height:50vh;}
+.landing-banner.full {height:100vh;}
+.landing-banner > .wrapper {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center; 
+    padding:35px 17.5%; }
+.landing-banner > .background, .landing-banner > .overlay, .strip {
+    position:absolute;
+    z-index:-3;
+    width:100%;
+    height:inherit;}
+.landing-banner > .background {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+.landing-banner > .overlay {
+    background-color:rgba(0,0,0,0.5);
+    z-index:-2; }
+.overlay.fade {background-color:rgba(0,0,0,0.25);}
+.overlay.intense {background-color:rgba(0,0,0,0.75);}
+.landing-banner > .strip {
+    background-image:linear-gradient(135deg,rgba(0,0,0,.15) 25%,transparent 25%,transparent 50%,rgba(0,0,0,.15) 50%,rgba(0,0,0,.15) 75%,transparent 75%,transparent);
+    background-size: 15px 15px;
+    z-index:-1;
+    background-repeat:repeat; }
 
 /* Image */
 .image {
@@ -601,6 +635,11 @@ sup,sub {font-size:0.5em;}
     .banner {padding:65px 6.25%;}
     .banner-large {padding:65px 3.75%;}
     .banner-small {padding:65px 10%;}
+
+    .landing-banner > .wrapper  {
+        padding:35px 7.5%;
+        overflow-y:auto;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:768px){
@@ -634,6 +673,11 @@ sup,sub {font-size:0.5em;}
     .banner {padding:65px 7.5%;}
     .banner-large {padding:65px 5%;}
     .banner-small {padding:65px 10%;}
+
+    .landing-banner > .wrapper  {
+        padding:35px 10%;
+        overflow-y:auto;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:960px){

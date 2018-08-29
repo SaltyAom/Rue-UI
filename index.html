@@ -49,33 +49,30 @@
     <body>
         <!-- <div id="background"></div>
         <div id="overlay"></div> -->
-        <div class="container">
-            <div class="banner banner-large banner-transparent content-left">
-                <div class="grid-container">
-                    <div class="grid-7-12 grid-small-12-12 grid-medium-12-12 grid-large-12-12 grid-extra-10-12">
-                        <div class="media media-transparent">
-                            <h1 class="title-large content-divider divider-primary primary-primary divider-heavy">Rue UI <sub class="content-bold">v 0.2</sub></h1>
-                            <h1 class="content-large content-indent-large primary-secondary content-margin-medium">
-                                An CSS framework for elegant design and coding.
-                            </h1>
-                            <h1 class="content-large content-indent-large primal-fade content-margin-large">
-                                Rue UI is an open-source CSS framework for developing front-end web design. Fasten your progress with complete CSS classes for entire website, multiple color palette, responsive grid system, extensive component for a complete web design.
-                            </h1>    
-                            <h1 class="content-small pure-fade content-indent content-right">&reg aomkirby123 ~ 2018</h1>
-                            <div class="grid-container grid-large grid-container-large">
-                                <div class="grid-6-12 grid-small-12-12 grid-medium-12-12 grid-large-6-12 grid-extra-6-12">
-                                    <a class="rue-btn btn-primary btn-round btn-medium btn-fluid">Get start</a>
-                                </div>
-                                <div class="grid-6-12 grid-small-12-12 grid-medium-12-12 grid-large-6-12 grid-extra-6-12">
-                                    <a class="rue-btn btn-primary btn-round btn-medium btn-fluid" href="https://www.github.com/aomkirby123/Rue%20UI" target="_blank">On Github</a>
-                                </div>
-                            </div>
-                        </div>
+        <div class="landing-banner full">
+            <div class="background fixed" style="background-image:url('img/sky.jpg')"></div>
+            <div class="overlay"></div>
+            <div class="strip"></div>
+            <div class="wrapper">
+                <h1 class="title-large content-divider divider-primary primary-primary divider-heavy">Rue UI <sub class="content-bold">v 0.2</sub></h1>
+                <h1 class="content-large content-indent-large pure-primary content-margin-medium">
+                    An CSS framework for elegant design and coding.
+                </h1>
+                <h1 class="content-large content-indent-large pure-primary content-margin-large">
+                    Rue UI is an open-source CSS framework for developing front-end web design. Fasten your progress with complete CSS classes for entire website, multiple color palette, responsive grid system, extensive component for a complete web design.
+                </h1>    
+                <h1 class="content-small pure-fade content-indent content-right">&reg aomkirby123 ~ 2018</h1>
+                <div class="grid-container grid-container-small">
+                    <div class="grid-6-12 grid-small-12-12 grid-medium-12-12 grid-large-6-12 grid-extra-6-12">
+                        <a class="rue-btn btn-pure btn-medium btn-fluid">Get start</a>
                     </div>
-                    <div class="grid-5-12 grid-small-12-12 grid-medium-12-12 grid-large-4-12 grid-extra-5-12">
+                    <div class="grid-6-12 grid-small-12-12 grid-medium-12-12 grid-large-6-12 grid-extra-6-12">
+                        <a class="rue-btn btn-pure btn-blank btn-medium btn-fluid" href="https://www.github.com/aomkirby123/Rue%20UI" target="_blank">On Github</a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container">
             <div class="grid-container">
                 <div class="grid-4-12 grid-small-12-12 grid-medium-12-12 grid-large-12-12">
                     <div class="media media-transparent content-center">
@@ -374,6 +371,17 @@
                     </div>
                 </div>
                 <div class="media">
+                    <h1 class="header-medium content-divider">Button sizing</h1>
+                    <h5 class="content-indent content-block">
+                        Sizing a button, sizing a priority, adjust button just by adding <code>.btn-*</code>.
+                    </h5>
+                    <div class="container-stack">
+                        <a class="rue-btn">Default</a>
+                        <a class="rue-btn btn-medium">Medium</a>
+                        <a class="rue-btn btn-large">Large</a>
+                    </div>
+                </div>   
+                <div class="media">
                     <h1 class="header-medium content-divider">Fluid Button</h1>
                     <h5 class="content-indent content-block">
                         Need button to be on a whole line? Try Fluid Button! <code>btn-fluid</code>.
@@ -395,15 +403,15 @@
                     </h5>
                     <div class="container-stack">
                         <div class="rue-btn-container">
-                            <a class="rue-btn btn-stack">This</a>
-                            <a class="rue-btn btn-stack btn-primary">is</a>
-                            <a class="rue-btn btn-stack btn-success">button</a>
-                            <a class="rue-btn btn-stack btn-alert">container</a>
+                            <a class="rue-btn">This</a>
+                            <a class="rue-btn btn-primary">is</a>
+                            <a class="rue-btn btn-success">button</a>
+                            <a class="rue-btn btn-alert">container</a>
                         </div>
                         <div class="rue-btn-container">
                             <a class="rue-btn btn-danger">Rue</a>
-                            <a class="rue-btn btn-stack btn-dark">button</a>
-                            <a class="rue-btn btn-stack btn-pure">container</a>
+                            <a class="rue-btn btn-dark">button</a>
+                            <a class="rue-btn btn-pure">container</a>
                         </div>    
                     </div>
                 </div>
@@ -673,7 +681,7 @@
                 <div class="grid-container">
                     <div class="grid-3-12 grid-small-12-12 grid-medium-6-12">
                         <div class="media media-danger media-hover media-impact">
-                            <h2 class="content-divider divider-danger divider-heavy">Less than 576px</h2>
+                            <h2>Less than 576px</h2>
                             <h5 class="">
                                 <code>grid-small-*-12</code> will take care of grid between this width.
                             </h5>
@@ -681,7 +689,7 @@
                     </div>
                     <div class="grid-3-12 grid-small-12-12 grid-medium-6-12">
                         <div class="media media-alert media-hover media-impact">
-                            <h2 class="content-divider divider-alert divider-heavy">Less than 768px</h2>
+                            <h2>Less than 768px</h2>
                             <h5>
                                 <code>grid-medium-*-12</code> will take care of grid between this width.
                             </h5>
@@ -689,7 +697,7 @@
                     </div>
                     <div class="grid-3-12 grid-small-12-12 grid-medium-6-12">
                         <div class="media media-primary media-hover media-impact">
-                            <h2 content-divider divider-primary divider-heavy">Less than 960px</h2>
+                            <h2>Less than 960px</h2>
                             <h5>
                                 <code>grid-large-*-12</code> will take care of grid between this width.
                             </h5>
@@ -697,12 +705,90 @@
                     </div>    
                     <div class="grid-3-12 grid-small-12-12 grid-medium-6-12">
                         <div class="media media-success media-hover media-impact">
-                            <h2 content-divider divider-success divider-heavy">More than 960px</h2>
+                            <h2>More than 1120px</h2>
                             <h5>
-                                <code>grid-*-12</code> will take care of grid between this width.
+                                <code>grid-large-*-12</code> will take care of grid between this width.
                             </h5>
                         </div>
                     </div>        
+                </div>
+                <h1 class="title-small content-divider">Grid Adjustment</h1>
+                <p class="content-large"><span class="code">grid-system</span> can be adjust an each elemnt spacing, and container size.</p>
+                <div class="media">
+                    
+                    <h4>Normal grid</h4>
+                    <div class="grid-container">
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Elemnt Stack grid <code>grid-stack</code></h4>
+                    <div class="grid-container grid-stack">
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium media-edge">
+                                4
+                            </div>
+                        </div>
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium media-edge">
+                                4
+                            </div>
+                        </div>
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium media-edge">
+                                4
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Small grid container <code>grid-small</code></h4>
+                    <div class="grid-container grid-small">
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>            
+                    </div>
+                    <h4>Large grid container <code>grid-large</code></h4>
+                    <div class="grid-container grid-large">
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>
+                        <div class="grid-4-12 grid-small-4-12 grid-medium-4-12 grid-large-4-12 grid-extra-4-12">
+                            <div class="media media-primary media-fill content-bold content-center header-medium">
+                                4
+                            </div>
+                        </div>            
+                    </div>
+                    
                 </div>
             </div>
             <div class="media media-transparent">
@@ -807,6 +893,7 @@
                     If width is less than 576px all card will resize to <code>card-1</code>. For width less than 768px <code>card-4</code><code>card-5</code> will resize to <code>card-3</code> and lose <span class="block">same-height</span> ability.
                 </div>
             </div>
+
         </div>
     </body>
 </html>
